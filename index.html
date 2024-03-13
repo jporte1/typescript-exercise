@@ -1,0 +1,32 @@
+<title>City Directory</title>
+
+<h3>City Directory</h3>
+  <form id="cityForm">
+    <label for="cityName">City Name:</label>
+    <input type="text" id="cityName" required><br><br>
+    <label for="country">Country:</label>
+    <input type="text" id="country" required><br><br>
+    <label for="population">Population:</label>
+    <input type="number" id="population" required><br><br>
+    <button type="submit">Add City</button>
+  </form>
+
+  <input type="text" id="searchInput" placeholder="Search..."><br><br>
+
+  <ul id="cityList"></ul>
+
+<h3>ISBN-10 Validator</h3>
+<label for="isbnInput">Enter ISBN-10:</label>
+<input type="text" id="isbnInput" required>
+<button onclick="console.log(isValidISBN10(document.getElementById('isbnInput').value))">Check</button>
+
+<h3>String Transformation</h3>
+<label for="inputString">Enter a string:</label>
+<input type="text" id="inputString">
+<button onclick="transformAndDisplay()">Transform</button>
+<p id="output"></p>
+
+
+
+<script>var exports = {"__esModule" : {value: true}}</script>
+<script src="./index.js"></script>
